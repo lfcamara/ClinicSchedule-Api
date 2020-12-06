@@ -1,10 +1,12 @@
-import express from 'express';
-import fs from 'fs';
-import router from './routes';
+const express = require('express');
+const router = require('./routes');
+const calendar = require('../data/calendar');
 
 const app = express();
 
 app.use(express.json());
 app.use(router);
 
-export default app;
+calendar.generateCalendar();
+
+module.exports = app;
