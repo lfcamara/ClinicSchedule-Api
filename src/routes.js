@@ -16,7 +16,8 @@ router.post('/schedule', (req, res) => {
     intervals,
   };
 
-  schedule.saveSchedule(data);
+  schedule.newSchedule(data);
+  res.send('OK');
 });
 
 module.exports = router;

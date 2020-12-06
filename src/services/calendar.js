@@ -2,9 +2,9 @@ const fs = require('fs');
 
 const formatDate = (date) => {
   const day = date.getDate().toString().padStart(2, '0');
-  const month = date.getMonth() + 1;
+  const month = (date.getMonth() + 1).toString().padStart(2, '0');
   const year = date.getFullYear();
-  const formattedDate = `${day}/${month}/${year}`;
+  const formattedDate = `${day}-${month}-${year}`;
 
   return formattedDate;
 };
@@ -18,16 +18,13 @@ const generateCalendar = () => {
   const dateArray = [];
   const currentDate = today;
 
-  while (currentDate < threeMonthsLater) {
+  while (currentDate <= threeMonthsLater) {
     const formattedDate = formatDate(currentDate);
 
     const data = {
       day: formattedDate,
       weekDay: week[currentDate.getDay()],
-      intervals: [{
-        start: '',
-        end: '',
-      }],
+      intervals: [],
     };
     dateArray.push(data);
     currentDate.setDate(currentDate.getDate() + 1);
@@ -40,6 +37,18 @@ const generateCalendar = () => {
   });
 };
 
+const getLastDay = () => {
+  fs.readFile('./data/calendar.json', 'utf-8', (err, calendar) => {
+    if (err) throw err;
+
+    const calendarObj = JSON.parse(calendar);
+    const lastDay = calendarObj[calendarObj.length - 1];
+
+    return lastDay.day;
+  });
+};
+
 module.exports = {
   generateCalendar,
+  getLastDay,
 };

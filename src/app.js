@@ -1,6 +1,6 @@
 const express = require('express');
 const router = require('./routes');
-const calendar = require('../data/calendar');
+const calendar = require('./services/calendar');
 
 const app = express();
 
