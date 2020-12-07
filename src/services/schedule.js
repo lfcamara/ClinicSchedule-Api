@@ -1,37 +1,24 @@
-const fs = require('fs');
+const calendarService = require('./calendar');
 
 const DATE_REGEX = /(\d{1,2})-(\d{1,2})-(\d{4})/;
 
 const isDate = (string) => string.match(DATE_REGEX);
 
-const findByWeekDay = (weekDay) => {
-  fs.readFile('./data/calendar.json', 'utf-8', (err, calendar) => {
-    if (err) throw err;
-
-    const rules = JSON.parse(calendar);
-
-    const dates = rules.filter((rule) => rule.weekDay.toLowerCase() === weekDay.toLowerCase());
-    return dates;
+const newSchedule = (schedule) => {
+  const { day } = schedule;
+  calendarService.readCalendar().then((calendar) => {
+    const calendarObj = JSON.parse(calendar);
+    if (isDate(day)) {
+      const specificDay = calendarObj.find((rule) => rule.day === day);
+      specificDay.intervals.push(schedule.intervals);
+    } else {
+      const dates = calendarObj.filter((rule) => rule.weekDay.toLowerCase() === day);
+      dates.forEach((date) => {
+        date.intervals.push(schedule.intervals);
+      });
+    }
+    calendarService.writeCalendar(calendarObj);
   });
 };
 
-const findByDate = (date) => {
-  fs.readFile('./data/calendar.json', 'utf-8', (err, calendar) => {
-    if (err) throw err;
-
-    const rules = JSON.parse(calendar);
-
-    const specificDay = rules.find((rule) => rule.day === date);
-    return specificDay;
-  });
-};
-
-const newSchedule = (data) => {
-  const { day } = data;
-  if (isDate(day)) {
-    findByDate(day);
-  } else {
-    findByWeekDay(day);
-  }
-};
 module.exports = { newSchedule };
