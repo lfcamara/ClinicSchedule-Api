@@ -1,5 +1,5 @@
 const express = require('express');
-const scheduleService = require('./services/schedule');
+const scheduleService = require('../services/schedule');
 
 const router = express.Router();
 
