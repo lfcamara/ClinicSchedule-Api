@@ -15,16 +15,26 @@ router.get('/', (req, res) => {
 router.get('/:dates', (req, res) => {
   const { dates } = req.params;
   const period = dates.split(',');
-  res.send(period);
+  const start = period[0];
+  const end = period[1];
+
+  try {
+    const result = scheduleService.getPeriod(start, end);
+    res.send(result);
+  } catch (err) {
+    res.send('Erro ao buscar pelo periodo informado');
+  }
 });
 
 router.post('/schedule', (req, res) => {
   const { day } = req.body;
   const { intervals } = req.body;
+
   const data = {
     day,
     intervals,
   };
+
   try {
     scheduleService.newSchedule(data);
     res.send('Horário Cadastrado');

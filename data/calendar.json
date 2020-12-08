@@ -12,7 +12,12 @@
   {
     "day": "09-12-2020",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "10-12-2020",
@@ -22,7 +27,12 @@
   {
     "day": "11-12-2020",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "12-12-2020",
@@ -32,7 +42,12 @@
   {
     "day": "13-12-2020",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "14-12-2020",
@@ -47,7 +62,12 @@
   {
     "day": "16-12-2020",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "17-12-2020",
@@ -57,7 +77,12 @@
   {
     "day": "18-12-2020",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "19-12-2020",
@@ -67,7 +92,12 @@
   {
     "day": "20-12-2020",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "21-12-2020",
@@ -82,7 +112,12 @@
   {
     "day": "23-12-2020",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "24-12-2020",
@@ -92,7 +127,12 @@
   {
     "day": "25-12-2020",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "26-12-2020",
@@ -102,7 +142,12 @@
   {
     "day": "27-12-2020",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "28-12-2020",
@@ -117,7 +162,12 @@
   {
     "day": "30-12-2020",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "31-12-2020",
@@ -127,7 +177,12 @@
   {
     "day": "01-01-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "02-01-2021",
@@ -137,7 +192,12 @@
   {
     "day": "03-01-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "04-01-2021",
@@ -152,7 +212,12 @@
   {
     "day": "06-01-2021",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "07-01-2021",
@@ -162,7 +227,12 @@
   {
     "day": "08-01-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "09-01-2021",
@@ -172,7 +242,12 @@
   {
     "day": "10-01-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "11-01-2021",
@@ -187,7 +262,12 @@
   {
     "day": "13-01-2021",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "14-01-2021",
@@ -197,7 +277,12 @@
   {
     "day": "15-01-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "16-01-2021",
@@ -207,7 +292,12 @@
   {
     "day": "17-01-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "18-01-2021",
@@ -222,7 +312,12 @@
   {
     "day": "20-01-2021",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "21-01-2021",
@@ -232,7 +327,12 @@
   {
     "day": "22-01-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "23-01-2021",
@@ -242,7 +342,12 @@
   {
     "day": "24-01-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "25-01-2021",
@@ -257,7 +362,12 @@
   {
     "day": "27-01-2021",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "28-01-2021",
@@ -267,7 +377,12 @@
   {
     "day": "29-01-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "30-01-2021",
@@ -277,7 +392,12 @@
   {
     "day": "31-01-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "01-02-2021",
@@ -292,7 +412,12 @@
   {
     "day": "03-02-2021",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "04-02-2021",
@@ -302,7 +427,12 @@
   {
     "day": "05-02-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "06-02-2021",
@@ -312,7 +442,12 @@
   {
     "day": "07-02-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "08-02-2021",
@@ -327,7 +462,12 @@
   {
     "day": "10-02-2021",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "11-02-2021",
@@ -337,7 +477,12 @@
   {
     "day": "12-02-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "13-02-2021",
@@ -347,7 +492,12 @@
   {
     "day": "14-02-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "15-02-2021",
@@ -362,7 +512,12 @@
   {
     "day": "17-02-2021",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "18-02-2021",
@@ -372,7 +527,12 @@
   {
     "day": "19-02-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "20-02-2021",
@@ -382,7 +542,12 @@
   {
     "day": "21-02-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "22-02-2021",
@@ -397,7 +562,12 @@
   {
     "day": "24-02-2021",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "25-02-2021",
@@ -407,7 +577,12 @@
   {
     "day": "26-02-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "27-02-2021",
@@ -417,7 +592,12 @@
   {
     "day": "28-02-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "01-03-2021",
@@ -432,7 +612,12 @@
   {
     "day": "03-03-2021",
     "weekDay": "Quarta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "04-03-2021",
@@ -442,7 +627,12 @@
   {
     "day": "05-03-2021",
     "weekDay": "Sexta",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   },
   {
     "day": "06-03-2021",
@@ -452,6 +642,11 @@
   {
     "day": "07-03-2021",
     "weekDay": "Domingo",
-    "intervals": []
+    "intervals": [
+      {
+        "start": "01:00",
+        "end": "06:00"
+      }
+    ]
   }
 ]

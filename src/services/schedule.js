@@ -8,6 +8,7 @@ const newSchedule = (schedule) => {
   const { day } = schedule;
   const calendar = calendarService.readCalendar();
   const calendarObj = JSON.parse(calendar);
+
   if (isDate(day)) {
     const specificDay = calendarObj.find((rule) => rule.day === day);
     specificDay.intervals = specificDay.intervals.concat(schedule.intervals);
@@ -17,20 +18,36 @@ const newSchedule = (schedule) => {
       date.intervals = date.intervals.concat(schedule.intervals);
     });
   }
+
   calendarService.writeCalendar(calendarObj);
 };
 
 const getFullSchedule = () => {
   const calendar = calendarService.readCalendar();
   const calendarObj = JSON.parse(calendar);
+
   const workDays = calendarObj.filter((rule) => rule.intervals.length > 0);
   const result = workDays.length > 0 ? workDays : 'Não há horários cadastrados';
+
+  return result;
+};
+
+const getPeriod = (start, end) => {
+  const calendar = calendarService.readCalendar();
+  const calendarObj = JSON.parse(calendar);
+
+  const startIndex = calendarObj.findIndex((rule) => rule.day === start);
+  const endIndex = calendarObj.findIndex((rule) => rule.day === end);
+  const periodSchedule = calendarObj.slice(startIndex, endIndex + 1);
+  const result = periodSchedule.filter((rule) => rule.intervals.length > 0);
+
   return result;
 };
 
 const deleteSchedule = (day) => {
   const calendar = calendarService.readCalendar();
   const calendarObj = JSON.parse(calendar);
+
   if (isDate(day)) {
     const specificDay = calendarObj.find((rule) => rule.day === day);
     specificDay.intervals = [];
@@ -46,4 +63,5 @@ module.exports = {
   newSchedule,
   getFullSchedule,
   deleteSchedule,
+  getPeriod,
 };
