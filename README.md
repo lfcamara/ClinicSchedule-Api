@@ -9,6 +9,9 @@
 ## API
 
 A ClinicSchedule-Api, ao ser executada pela primeira vez, irá gerar um calendário com o início sendo a data presente e seu fim sendo 3 meses no futuro (Exemplo: início: 08-12-2020, fim: 08-03-2020). Esta funcionalidade foi implementada a partir da ideia de que o usuário, em sua primeira requisição, pode cadastrar novos horários para diferentes dias da semana (Exemplo: segundas e quartas) ou até mesmo para todos os dias. Sendo assim, este método irá permitir uma melhor visibilidade dos horários cadastrados, sendo este um período menor e finito.
+
+*Datas anteriores e posteriores às datas do calendário não serão cadastradas*
+
 Com a API devidamente instalada e sendo executada, o usuáraio poderá realizar 4 tipos de requisição:
 
 1. Cadastrar uma nova regra:
