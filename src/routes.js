@@ -1,15 +1,21 @@
 const express = require('express');
-const schedule = require('./services/schedule');
-const calendarService = require('./services/calendar');
+const scheduleService = require('./services/schedule');
 
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  calendarService.readCalendar().then((calendar) => {
-    const calendarObj = JSON.parse(calendar);
-    const workDays = calendarObj.filter((day) => day.intervals.length > 0);
-    res.send(workDays.length > 0 ? workDays : 'Não há horários cadastrados');
-  });
+  try {
+    const schedule = scheduleService.getFullSchedule();
+    res.send(schedule);
+  } catch (err) {
+    res.send('Erro ao recuperar horários');
+  }
+});
+
+router.get('/:dates', (req, res) => {
+  const { dates } = req.params;
+  const period = dates.split(',');
+  res.send(period);
 });
 
 router.post('/schedule', (req, res) => {
@@ -19,8 +25,22 @@ router.post('/schedule', (req, res) => {
     day,
     intervals,
   };
-  schedule.newSchedule(data);
-  res.send('OK');
+  try {
+    scheduleService.newSchedule(data);
+    res.send('Horário Cadastrado');
+  } catch (err) {
+    res.send('Erro ao cadastrar horário');
+  }
+});
+
+router.delete('/schedule/:date', (req, res) => {
+  const { date } = req.params;
+  try {
+    scheduleService.deleteSchedule(date);
+    res.send('Horário Deletado');
+  } catch (err) {
+    res.send('Erro ao deletar horário');
+  }
 });
 
 module.exports = router;

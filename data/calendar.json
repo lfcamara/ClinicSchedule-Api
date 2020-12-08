@@ -1,0 +1,457 @@
+[
+  {
+    "day": "07-12-2020",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "08-12-2020",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "09-12-2020",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "10-12-2020",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "11-12-2020",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "12-12-2020",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "13-12-2020",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "14-12-2020",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "15-12-2020",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "16-12-2020",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "17-12-2020",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "18-12-2020",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "19-12-2020",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "20-12-2020",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "21-12-2020",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "22-12-2020",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "23-12-2020",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "24-12-2020",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "25-12-2020",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "26-12-2020",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "27-12-2020",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "28-12-2020",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "29-12-2020",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "30-12-2020",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "31-12-2020",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "01-01-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "02-01-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "03-01-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "04-01-2021",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "05-01-2021",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "06-01-2021",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "07-01-2021",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "08-01-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "09-01-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "10-01-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "11-01-2021",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "12-01-2021",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "13-01-2021",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "14-01-2021",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "15-01-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "16-01-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "17-01-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "18-01-2021",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "19-01-2021",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "20-01-2021",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "21-01-2021",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "22-01-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "23-01-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "24-01-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "25-01-2021",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "26-01-2021",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "27-01-2021",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "28-01-2021",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "29-01-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "30-01-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "31-01-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "01-02-2021",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "02-02-2021",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "03-02-2021",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "04-02-2021",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "05-02-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "06-02-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "07-02-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "08-02-2021",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "09-02-2021",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "10-02-2021",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "11-02-2021",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "12-02-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "13-02-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "14-02-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "15-02-2021",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "16-02-2021",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "17-02-2021",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "18-02-2021",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "19-02-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "20-02-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "21-02-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "22-02-2021",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "23-02-2021",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "24-02-2021",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "25-02-2021",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "26-02-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "27-02-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "28-02-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  },
+  {
+    "day": "01-03-2021",
+    "weekDay": "Segunda",
+    "intervals": []
+  },
+  {
+    "day": "02-03-2021",
+    "weekDay": "Terça",
+    "intervals": []
+  },
+  {
+    "day": "03-03-2021",
+    "weekDay": "Quarta",
+    "intervals": []
+  },
+  {
+    "day": "04-03-2021",
+    "weekDay": "Quinta",
+    "intervals": []
+  },
+  {
+    "day": "05-03-2021",
+    "weekDay": "Sexta",
+    "intervals": []
+  },
+  {
+    "day": "06-03-2021",
+    "weekDay": "Sabado",
+    "intervals": []
+  },
+  {
+    "day": "07-03-2021",
+    "weekDay": "Domingo",
+    "intervals": []
+  }
+]

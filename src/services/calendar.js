@@ -18,7 +18,7 @@ const writeCalendar = (calendarObj) => {
   });
 };
 
-const readCalendar = () => fs.promises.readFile(CALENDAR_FILE, 'utf-8');
+const readCalendar = () => fs.readFileSync(CALENDAR_FILE, 'utf-8');
 
 const generateCalendar = () => {
   const today = new Date();
