@@ -47,9 +47,9 @@ router.post('/schedule', (req, res) => {
 });
 
 router.delete('/schedule/:date', (req, res) => {
-  const { date } = req.params;
+  const days = req.params.date.split(',');
   try {
-    scheduleService.deleteSchedule(date);
+    scheduleService.deleteSchedule(days);
     res.send('Horário Deletado');
   } catch (err) {
     res.send('Erro ao deletar horário');

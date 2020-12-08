@@ -66,19 +66,37 @@ const getPeriod = (start, end) => {
   return result;
 };
 
-const deleteSchedule = (day) => {
+const deleteSchedule = (schedule) => {
   const calendar = calendarService.readCalendar();
   const calendarObj = JSON.parse(calendar);
 
-  if (isDate(day)) {
-    const specificDay = calendarObj.find((rule) => rule.day === day);
-    specificDay.intervals = [];
-  } else {
-    const rules = calendarObj.filter((rule) => rule.weekDay.toLowerCase() === day);
-    rules.forEach((rule) => {
+  if (schedule[0] === 'diariamente') {
+    calendarObj.forEach((rule) => {
       rule.intervals = [];
     });
+  } else {
+    schedule.forEach((element) => {
+      let day = element;
+      day = day.trim();
+      if (isDate(day)) {
+        const specificDay = calendarObj.find((rule) => rule.day === day);
+        specificDay.intervals = [];
+      } else {
+        const isValid = week.includes(day.toLowerCase());
+        if (isValid) {
+          // eslint-disable-next-line max-len
+          const dates = calendarObj.filter((rule) => rule.weekDay.toLowerCase() === day.toLowerCase());
+          dates.forEach((date) => {
+            date.intervals = [];
+          });
+        } else {
+          throw new DataException('Dia invalido');
+        }
+      }
+    });
   }
+
+  calendarService.writeCalendar(calendarObj);
 };
 
 module.exports = {
