@@ -76,5 +76,6 @@ $ npm install
 
 ## Execução
 
-Utilizando a linha de comando no diretório onde o projeto foi clonado execute o comando `$ npm start`
+Utilizando a linha de comando no diretório onde o projeto foi clonado execute o comando `$ npm start`.
+
 Após esta etapa, o projeto já estará sendo executado na porta 3000.
