@@ -1,21 +1,43 @@
 const calendarService = require('./calendar');
 
 const DATE_REGEX = /(\d{1,2})-(\d{1,2})-(\d{4})/;
+const week = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sabado'];
+
+const DataException = (message) => {
+  this.message = message;
+  this.name = DataException;
+};
 
 const isDate = (string) => string.match(DATE_REGEX);
 
 const newSchedule = (schedule) => {
-  const { day } = schedule;
   const calendar = calendarService.readCalendar();
   const calendarObj = JSON.parse(calendar);
 
-  if (isDate(day)) {
-    const specificDay = calendarObj.find((rule) => rule.day === day);
-    specificDay.intervals = specificDay.intervals.concat(schedule.intervals);
+  if (schedule[0].day === 'diariamente') {
+    calendarObj.forEach((rule) => {
+      rule.intervals = rule.intervals.concat(schedule[0].intervals);
+    });
   } else {
-    const dates = calendarObj.filter((rule) => rule.weekDay.toLowerCase() === day);
-    dates.forEach((date) => {
-      date.intervals = date.intervals.concat(schedule.intervals);
+    schedule.forEach((element) => {
+      let { day } = element;
+      day = day.trim();
+      const { intervals } = element;
+      if (isDate(day)) {
+        const specificDay = calendarObj.find((rule) => rule.day === day);
+        specificDay.intervals = specificDay.intervals.concat(intervals);
+      } else {
+        const isValid = week.includes(day.toLowerCase());
+        if (isValid) {
+          // eslint-disable-next-line max-len
+          const dates = calendarObj.filter((rule) => rule.weekDay.toLowerCase() === day.toLowerCase());
+          dates.forEach((date) => {
+            date.intervals = date.intervals.concat(intervals);
+          });
+        } else {
+          throw new DataException('Dia invalido');
+        }
+      }
     });
   }
 

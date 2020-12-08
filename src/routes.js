@@ -27,13 +27,16 @@ router.get('/:dates', (req, res) => {
 });
 
 router.post('/schedule', (req, res) => {
-  const { day } = req.body;
+  const day = req.body.day.split(',');
   const { intervals } = req.body;
-
-  const data = {
-    day,
-    intervals,
-  };
+  const data = [];
+  day.forEach((element) => {
+    const rule = {
+      day: element,
+      intervals,
+    };
+    data.push(rule);
+  });
 
   try {
     scheduleService.newSchedule(data);
